@@ -1,0 +1,36 @@
+@authUrl = http://localhost:5101
+@employeeUrl = http://localhost:5102
+@token = paste-token-here
+
+### Generate a demo Admin JWT
+GET {{authUrl}}/api/auth/token?userName=admin
+
+### Login as POC
+POST {{authUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "userName": "poc",
+  "password": "poc@123"
+}
+
+### Call employee microservice with JWT
+GET {{employeeUrl}}/api/employees
+Authorization: Bearer {{token}}
+
+### Read current token profile
+GET {{employeeUrl}}/api/profile
+Authorization: Bearer {{token}}
+
+### Create employee with Admin or POC JWT
+POST {{employeeUrl}}/api/employees
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Meera Nair",
+  "department": "Engineering",
+  "designation": "Developer",
+  "salary": 54000,
+  "permanent": true
+}
