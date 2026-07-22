@@ -1,0 +1,15 @@
+/Users/pabbi/Documents/Cognizant/ExampleApp/bin/Debug/net8.0/ExampleApp
+/Users/pabbi/Documents/Cognizant/ExampleApp/bin/Debug/net8.0/ExampleApp.deps.json
+/Users/pabbi/Documents/Cognizant/ExampleApp/bin/Debug/net8.0/ExampleApp.runtimeconfig.json
+/Users/pabbi/Documents/Cognizant/ExampleApp/bin/Debug/net8.0/ExampleApp.dll
+/Users/pabbi/Documents/Cognizant/ExampleApp/bin/Debug/net8.0/ExampleApp.pdb
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.AssemblyInfoInputs.cache
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.AssemblyInfo.cs
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.csproj.CoreCompileInputs.cache
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.sourcelink.json
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.dll
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/refint/ExampleApp.dll
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.pdb
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ExampleApp.genruntimeconfig.cache
+/Users/pabbi/Documents/Cognizant/ExampleApp/obj/Debug/net8.0/ref/ExampleApp.dll
