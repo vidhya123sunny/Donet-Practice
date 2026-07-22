@@ -1,0 +1,26 @@
+@EmployeeManagement.Api_HostAddress = http://localhost:5208
+@Token = replace-with-token-from-auth-endpoint
+
+GET {{EmployeeManagement.Api_HostAddress}}/api/auth/token?userId=1&role=Admin
+Accept: application/json
+
+###
+
+GET {{EmployeeManagement.Api_HostAddress}}/api/employees
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+###
+
+POST {{EmployeeManagement.Api_HostAddress}}/api/employees
+Content-Type: application/json
+Authorization: Bearer {{Token}}
+
+{
+  "name": "Priya Sharma",
+  "salary": 82000,
+  "permanent": true,
+  "departmentId": 1,
+  "skillIds": [1, 2, 3],
+  "dateOfBirth": "1993-07-15T00:00:00"
+}
